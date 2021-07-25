@@ -1,0 +1,28 @@
+{
+  "config": {},
+  "dependencies": {},
+  "schema": {
+    "types": [
+      {
+        "name": "Root",
+        "fields": [
+          { "name": "json", "type": "Json", "params": [{ "name": "value", "type": "String" }] }
+        ]
+      },
+      {
+        "name": "Json",
+        "fields": [
+          { "name": "eval", "type": "Json", "params": [{ "name": "expr", "type": "String" }] },
+
+          { "name": "string", "type": "String", "params": [] },
+          { "name": "json", "type": "String", "params": [] },
+          { "name": "float", "type": "Float", "params": [] },
+          { "name": "int", "type": "Int", "params": [] },
+          { "name": "boolean", "type": "Boolean", "params": [] }
+        ]
+      }
+    ],
+    "imports": [ ]
+  }
+}
+

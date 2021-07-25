@@ -1,0 +1,15 @@
+{
+  "name": "membrane-json",
+  "version": "0.0.1",
+  "description": "Membrane program to reference expressions on a JSON document",
+  "main": "index.js",
+  "author": "Juan Campa",
+  "license": "MIT",
+  "dependencies": {
+    "jsonata": "^1.8.4"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.1"
+  }
+}
